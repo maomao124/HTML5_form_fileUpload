@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<!--
+Project name(项目名称)：HTML5_form_fileUpload
+  File name(文件名): test1
+  Authors(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/3/31
+  Time(创建时间)： 20:10
+  Description(描述)： 无
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background-color: #76ff9b;
+        }
+    </style>
+</head>
+<body>
+<form method="post" action="result.jsp">
+    所有文件类型：
+    <input type="file" name="file1"/>
+    <br/>
+    图片格式文件：
+    <input type="file" name="file2" accept="image/*"/>
+    <br/>
+    WORD格式文件：
+    <input type="file" name="file3" accept="application/msword"/>
+    <br>
+    <input type="submit" name="提交">
+</form>
+</body>
+</html>
